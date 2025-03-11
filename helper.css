@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    text-decoration: none;  
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    overflow-x: hidden;}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+:root {
+    /* bg */
+    --bg-decor: rgb(15, 49, 65);
+    --bg-white-middle: rgb(250, 248, 244);
+    --bg-white: rgb(255, 255, 255);
+    --bg-sky-decor: rgb(245, 246, 248);
+--bg-orange: rgb(241, 111, 79);
+    /* color */
+    --text-color-black1: rgb(0, 0, 0);
+    --text-color-black2: rgb(16, 16, 16);
+    --text-color-grey1: rgb(117, 123, 138);
+    --text-color-grey2: rgb(15, 49, 65);
+    --text-color-grey3: rgb(182, 185, 191);
+    --text-color-white: rgb(255, 255, 255);
+    --text-color-orange1: rgb(242, 100, 64);
+    --text-color-orange2: rgb(240, 116, 84);
+
+    /* fs */
+    --text-small1-fs: 12px;
+    --text-small2-fs: 14px;
+    --text-normal1-fs: 16px;
+    --text-normal2-fs: 18px;
+    --text-middle-fs: 24px;
+    --text-big1-fs: 40px;
+    --text-big2-fs: 44px;
+    --text-big3-fs: 60px;
+    --text-top-fs: 88px;
+
+    /* ff */
+    --text-normal-ff: "Inter", serif;
+    --text-middle-ff: "Poppins", serif;
+    --text-small-ff: "Raleway", serif;
+
+    /* width */
+    --max-width-middle: 1280px;
+    --max-width-big: 1440px;
+}
+
+.group-1-icon {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* dispay */
+/* flex - row wisth (center) height (center) */
+.f-r-c-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.f-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-r-c-fs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.f-r-b-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-r-sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.f-r-b-s {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.f-r-fs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.f-r-fs-fs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.f-c-fs-fs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.f-c-c-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-column-c-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.f-c-fs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.f-r-se-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+/* width */
+.max-width-middle-content {
+    max-width: var(--max-width-middle);
+    width: 96%;
+}
+
+.max-width-big {
+    max-width: var(--max-width-big);
+}
+
+
+
