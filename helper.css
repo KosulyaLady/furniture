@@ -24,7 +24,7 @@ main {
     --bg-white-middle: rgb(250, 248, 244);
     --bg-white: rgb(255, 255, 255);
     --bg-sky-decor: rgb(245, 246, 248);
---bg-orange: rgb(241, 111, 79);
+    --bg-orange: rgb(241, 111, 79);
     /* color */
     --text-color-black1: rgb(0, 0, 0);
     --text-color-black2: rgb(16, 16, 16);
