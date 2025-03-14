@@ -11,8 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    overflow-x: hidden;}
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -54,6 +52,7 @@ main {
     /* width */
     --max-width-middle: 1280px;
     --max-width-big: 1440px;
+    --max-width-middle2: 1300px;
 }
 
 .group-1-icon {
@@ -159,7 +158,10 @@ main {
     max-width: var(--max-width-middle);
     width: 96%;
 }
-
+.max-width-middle2-content{
+    max-width: var(--max-width-middle2);
+    width: 85%;
+}
 .max-width-big {
     max-width: var(--max-width-big);
 }
