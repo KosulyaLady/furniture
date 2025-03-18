@@ -31,12 +31,13 @@ body {
     --text-color-white: rgb(255, 255, 255);
     --text-color-orange1: rgb(242, 100, 64);
     --text-color-orange2: rgb(240, 116, 84);
-
+    --text-color-orange2: rgb(241, 114, 82);
     /* fs */
     --text-small1-fs: 12px;
     --text-small2-fs: 14px;
     --text-normal1-fs: 16px;
     --text-normal2-fs: 18px;
+    --text-normal3-fs: 20px;
     --text-middle-fs: 24px;
     --text-big1-fs: 40px;
     --text-big2-fs: 44px;
@@ -114,7 +115,12 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
+.f-r-c-fs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;  
+}
 .f-c-fs-fs {
     display: flex;
     flex-direction: column;
