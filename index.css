@@ -146,6 +146,95 @@ width: 100%;
     line-height: 22px;
 }
 
+.sect-3 {
+    padding-top: 160px;
+    padding-bottom: 114px;
+    background: red;
+}
+
+.sect-3-wrap  {
+    background: yellow;
+}
+.sect-3-top {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.sect-3-top-text-mb {
+    margin-bottom: 72px;
+}
+
+.sect-3-lines {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-sect-3 {
+    width: 32px;
+}
+
+.sect-3bottom  {
+    display: flex;
+    gap: 24px;
+
+}
+
+
+.sect3-block {
+    width: 19%;
+}
+
+
+
+.sect3-icon {
+    width: 240px;
+}
+
+.sect3-icon-mb {
+    margin-bottom: 8px;
+}
+
+.text-par-one {
+    color: var(--text-color-grey2);
+font-family: var(--text-small-ff);
+font-size: var(--text-small2-fs);
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 1%;
+text-align: left;
+text-transform: capitalize;
+}
+.text-par-one-mb {
+    margin-bottom: 8px;
+}
+.text-par--two {
+    color: var(--text-color-grey2);
+    font-family: var(--text-small-ff);
+    font-size: var(--text-normal3-fs);
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.text-par--three {
+    color: var(--text-color-grey2);
+font-family: var(--text-small-ff);
+font-size: var(--text-small1-fs);
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 1%;
+text-align: left;
+}
+.text-par--four {
+    color: var(--text-color-orange2);
+font-family: var(--text-small-ff);
+font-size: var(--text-normal2-fs);
+font-weight: 700;
+line-height: 28px;
+
+text-transform: capitalize;
+}
 
 
 
