@@ -194,7 +194,7 @@
  
     overflow-x: auto;
 
-    width: calc(100% - (100vw - 1280px) / 2);
+    width: calc(100% - (100vw - 1300px) / 2);
 }
 
 
@@ -473,10 +473,10 @@
 }
 
 
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 1525px) {
 
     .sect-3bottom {
-        width: 98%;
+        width: 92.5%;
 
     }
 
