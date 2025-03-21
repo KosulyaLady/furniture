@@ -127,7 +127,12 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
+.f-c-fe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
 .f-c-c-c {
     display: flex;
     flex-direction: column;
