@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    overflow-x: hidden;}
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -24,7 +21,7 @@ main {
     --bg-white-middle: rgb(250, 248, 244);
     --bg-white: rgb(255, 255, 255);
     --bg-sky-decor: rgb(245, 246, 248);
---bg-orange: rgb(241, 111, 79);
+    --bg-orange: rgb(241, 111, 79);
     /* color */
     --text-color-black1: rgb(0, 0, 0);
     --text-color-black2: rgb(16, 16, 16);
@@ -34,7 +31,7 @@ main {
     --text-color-white: rgb(255, 255, 255);
     --text-color-orange1: rgb(242, 100, 64);
     --text-color-orange2: rgb(240, 116, 84);
-
+    --text-color-orange2: rgb(241, 114, 82);
     /* fs */
     --text-small1-fs: 12px;
     --text-small2-fs: 14px;
@@ -55,6 +52,7 @@ main {
     /* width */
     --max-width-middle: 1280px;
     --max-width-big: 1440px;
+    --max-width-middle2: 1300px;
 }
 
 .group-1-icon {
@@ -117,7 +115,12 @@ main {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
+.f-r-c-fs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;  
+}
 .f-c-fs-fs {
     display: flex;
     flex-direction: column;
@@ -160,7 +163,10 @@ main {
     max-width: var(--max-width-middle);
     width: 96%;
 }
-
+.max-width-middle2-content{
+    max-width: var(--max-width-middle2);
+    width: 85%;
+}
 .max-width-big {
     max-width: var(--max-width-big);
     
