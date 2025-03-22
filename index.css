@@ -143,11 +143,11 @@
 .sect-3 {
     padding-top: 160px;
     padding-bottom: 114px;
- 
+
 }
 
 .sect-3-wrap {
-  
+
     width: 100%;
     margin-bottom: 72px;
 }
@@ -191,7 +191,7 @@
 .sect-3bottom {
     display: flex;
     gap: 24px;
- 
+
     overflow-x: auto;
 
     width: calc(100% - (100vw - 1300px) / 2);
@@ -202,11 +202,44 @@
 
 
 .sect3-icon {
-    width: 240px;
+    width: 176px;
+    padding: 32px;
+
 }
 
 .sect3-icon-mb {
     margin-bottom: 8px;
+
+}
+
+.sect3-icon-bg1 {
+    border-radius: 8px;
+    background: rgb(248, 244, 242);
+}
+
+.sect3-icon-bg2 {
+    border-radius: 8px;
+    background: rgb(227, 231, 232);
+}
+
+.sect3-icon-bg3 {
+    border-radius: 8px;
+    background: rgb(226, 235, 224);
+}
+
+.sect3-icon-bg4 {
+    border-radius: 8px;
+    background: rgb(232, 232, 227);
+}
+
+.sect3-icon-bg5 {
+    border-radius: 8px;
+    background: rgb(245, 231, 214);
+}
+
+.sect3-icon-bg6 {
+    border-radius: 8px;
+    background: rgb(235, 229, 224);
 }
 
 .text-par-one {
@@ -218,6 +251,7 @@
     letter-spacing: 1%;
     text-align: left;
     text-transform: capitalize;
+    opacity: 0.5;
 }
 
 .text-par-one-mb {
@@ -232,10 +266,11 @@
     line-height: 30px;
     letter-spacing: 1%;
     text-align: left;
+  
 }
 
 .text-par--three {
-    color: var(--text-color-grey2);
+    color: var(--text-color-grey1);
     font-family: var(--text-small-ff);
     font-size: var(--text-small1-fs);
     font-weight: 400;
@@ -643,20 +678,22 @@
         gap: 7px;
     }
 
-  
+
 
     .sect3-block {
         flex: 1 160px;
 
-     
+
     }
-.sect3-icon {
-    width: 100%;
+
+    .sect3-icon {
+        width: 100%;
+    }
 }
-}
+
 @media screen and (max-width: 350px) {
-  .sect-top-text {
-    font-size: var(--text-middle-fs);
-  } 
-    
+    .sect-top-text {
+        font-size: var(--text-middle-fs);
+    }
+
 }
