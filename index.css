@@ -730,7 +730,7 @@ text-overflow: ellipsis;
     .text-par--two {
         white-space: wrap;
         width: 100%;
-        text-overflow:clip;
+        text-overflow: clip;
 
     }
 
