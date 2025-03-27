@@ -266,7 +266,7 @@
     line-height: 30px;
     letter-spacing: 1%;
     text-align: left;
-  
+
 }
 
 .text-par--three {
@@ -287,6 +287,19 @@
     line-height: 28px;
 
     text-transform: capitalize;
+
+    display: flex;
+}
+
+/* .span-line {
+transform: translateY(-3px);
+display: block;
+margin-right: 4px;
+} */
+.span-line-figure-bott {}
+
+.span-line-figure-small {
+    /* font-size: ; */
 }
 
 .sect-2 {
@@ -681,14 +694,47 @@
 
 
     .sect3-block {
-        flex: 1 160px;
+        flex: 1 190px;
 
 
     }
 
     .sect3-icon {
         width: 100%;
+        padding: 16px 0 16px 0;
     }
+
+    .text-par--two {
+        white-space: nowrap;
+        overflow: hidden;
+        width: 190px;
+        text-overflow: ellipsis;
+    }
+
+
+}
+
+@media screen and (max-width: 525px) {
+    /* .text-par--two {
+  white-space: nowrap;  
+overflow: hidden;
+width: 190px;
+text-overflow: ellipsis;
+
+} */
+
+
+}
+
+@media screen and (max-width: 434px) {
+    .text-par--two {
+        white-space: wrap;
+        width: 100%;
+        text-overflow:clip;
+
+    }
+
+
 }
 
 @media screen and (max-width: 350px) {
