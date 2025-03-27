@@ -289,6 +289,43 @@
     text-transform: capitalize;
 }
 
+
+
+.sect4-icon {
+    width: 400px;
+}
+
+.text-1par {
+    color: var(--text-color-white);
+    font-family: var(--text-middle-ff);
+    font-size: var(--text-middle-fs);
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: uppercase;}
+
+    .text-par1-mb {
+        margin-bottom: 16px;
+    }
+.text-2par {
+    color: var(--text-color-grey3);
+font-family: var(--text-small-ff);
+font-size: var(--text-normal2-fs);
+font-weight: 600;
+line-height: 21px;
+
+}
+.text1-2par {
+    color: var(--text-color-orange2);
+font-family: var(--text-middle-ff);
+font-size: var(--text-middle-fs);
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+
+}
+
 .sect-2 {
     overflow-y: hidden;
     padding-top: 113px;
