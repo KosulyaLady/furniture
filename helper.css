@@ -4,6 +4,7 @@
     border-radius: 0;
     background-color: transparent;
     text-decoration: none;  
+    
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     --bg-white: rgb(255, 255, 255);
     --bg-sky-decor: rgb(245, 246, 248);
     --bg-orange: rgb(241, 111, 79);
+    --bg-orange-decor: rgb(240, 116, 84);
     /* color */
     --text-color-black1: rgb(0, 0, 0);
     --text-color-black2: rgb(16, 16, 16);
@@ -167,6 +169,7 @@ body {
 .max-width-middle-content {
     max-width: var(--max-width-middle);
     width: 96%;
+    
 }
 .max-width-middle2-content{
     max-width: var(--max-width-middle2);
