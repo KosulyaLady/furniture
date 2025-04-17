@@ -30,6 +30,8 @@ body {
     --text-color-grey1: rgb(117, 123, 138);
     --text-color-grey2: rgb(15, 49, 65);
     --text-color-grey3: rgb(182, 185, 191);
+    --text-color-grey4: rgb(120, 117, 110);
+    --text-color-grey5: rgb(86, 85, 84);
     --text-color-white: rgb(255, 255, 255);
     --text-color-orange1: rgb(242, 100, 64);
     --text-color-orange2: rgb(240, 116, 84);
@@ -135,6 +137,13 @@ body {
     align-items: flex-end;
     
 }
+.f-c-sb-fe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
 .f-c-c-c {
     display: flex;
     flex-direction: column;
@@ -184,4 +193,11 @@ body {
 .max-width1-big {
     max-width: var(--max-width-big);
     width: 114%;
+}
+
+
+@media screen and (max-width: 650px) {
+    .max-width-middle2-content{
+    width: calc(100% - 48px);
+    }
 }
