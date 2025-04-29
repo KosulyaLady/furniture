@@ -1547,6 +1547,10 @@
 .sect7-icon-pos{
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  max-width: var(--max-width-middle2);
+  width: calc(100% - 48px);
+
 }
   .sect7-1 {
     
@@ -1565,7 +1569,7 @@
     width: 48%;
     height: auto;
     right: 20%;
-    bottom: 64px;
+    
 
 
 
@@ -1577,7 +1581,7 @@
     height: auto;
     ;
     right: 55%;
-    bottom: 64px;
+  
 
 
   }
